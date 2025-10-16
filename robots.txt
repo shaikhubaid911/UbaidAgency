@@ -1,0 +1,12 @@
+# robots.txt for UbaidAgency
+
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /admin/
+
+# Allow all other content to be crawled
+Allow: /
+
+# Sitemap location
+Sitemap: https://ubaidagency.com/sitemap.xml
